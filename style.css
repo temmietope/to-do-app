@@ -1,0 +1,55 @@
+/* body{
+    
+} */
+.todo-wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 700px;
+  border: solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* .flex-container{
+    /* display: flex; */
+
+.header {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  color: orangered;
+  font: 4em, bolder;
+}
+.form-for-todo {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+#item {
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+input[type='text']{
+    font-size: 30px;
+}
+.moveleft{
+    text-align: left !important;
+}
+#buttons {
+  background-color: orangered !important;
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+#cancel {
+    /* margin-left: 50px; */
+    color: red;
+    font: bolder;
+    cursor: pointer;
+    float: right;
+    margin-right: 300px;
+}
