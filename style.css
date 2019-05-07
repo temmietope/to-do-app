@@ -1,19 +1,19 @@
-/* body{
-    
-} */
+
 .todo-wrapper {
   box-sizing: border-box;
   padding: 20px;
-  align-items: center;
-  justify-content: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
   height: 500px;
   width: 700px;
   border: solid black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
 }
-/* .flex-container{
-    /* display: flex; */
+
 
 .header {
   text-align: center;
@@ -42,11 +42,27 @@ input[type='text']{
 #buttons {
   background-color: orangered !important;
   color: black;
-  height: 50px;
-  width: 100px;
+  border-radius: 20px;
+  box-shadow: none;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid violet;
 }
+#buttons:hover{
+  background-color: white;
+  color: white;
+  font-size: 30px;
+
+
+  -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
 #cancel {
-    /* margin-left: 50px; */
     color: red;
     font: bolder;
     cursor: pointer;
