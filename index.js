@@ -34,7 +34,7 @@
       return alert("enter a value amigoooo!!!");
     }
     const list = document.createElement("li");
-    list.innerHTML = `${input.value} <span id="cancel">Done</span>`;
+    list.innerHTML = `${input.value}<span id="cancel">Done</span>`;
     console.log(list.children[0]);
 
     itemsWrapper.appendChild(list);
